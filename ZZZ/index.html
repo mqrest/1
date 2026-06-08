@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="image/Logo.png" alt="">
+            </div>
+            <nav class="nav">
+                <a href="#" class="glavnaya">Главная</a>
+                <a href="#">О нас</a>
+                <a href="#">Особенности</a>
+                <a href="#">Установка</a>
+                <a href="#">Войти</a>
+                <a href="#" class="register-btn">Регистрация</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h2>ДOCТАВКА ЕДЫ</h2>
+                <h1>Ощути вкус еды.</h1>
+                <p>Подарите себе удовольствие от лучшего вкуса. Моменты гурмана. Попробуйте все самое лучшее, что есть рядом с вами.</p>
+            </div>
+            <div class="hero-image">
+                <img src="image/image.png" alt="Паста" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h1>О НАС</h1>
+                <h2>Каждый прием пищи – это еда с удовольствием</h2>
+                <p>Есть много способов, которыми вы можете использовать свой слоган, если не пытаетесь выделить какое-то
+                    место.</p>
+            </div>
+            <div class="about-image">
+                <img src="image/eda.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Блок скачивания -->
+    <div class="download-container">
+        <div class="download-text">
+            <h2>СКАЧАТЬ</h2>
+            <h3>УСТАНОВИТЬ ПРЯМО СЕЙЧАС</h3>
+            <p>Бренд завоевал лояльных поклонников, во многом благодаря своей прозрачности и упрощенному процессу
+                оформления заказов, который он предлагает своим клиентам.
+            </p>
+            <div class="app-links">
+                <a href="#"><img src="image/applestore.png" alt="App Store" /></a>
+                <a href="#"><img src="image/googleplay.png" alt="Google Play" /></a>
+            </div>
+        </div>
+        <!-- Изображение -->
+        <div class="download-image">
+            <img src="image/mobileimage.png" alt="Скриншот приложения" />
+        </div>
+    </div>
+
+    <!-- Блок с блюдами -->
+    <div class="recipe">
+        <h1>РЕЦЕПТ</h1>
+        <h2>ВЫБЕРИ СВОЁ ЛЮБИМОЕ БЛЮДО</h2>
+    </div>
+    <div class="cards">
+        <!-- Первый блок -->
+        <div class="card">
+            <img src="image/Ellipse 8.png" alt="Французская пицца" />
+            <h3>Французская пицца</h3>
+            <div class="description">вдывдывдывь ыд вывлвывлывлывлыв</div>
+            <button class="order-btn">Заказать</button>
+        </div>
+
+        <!-- Второй блок (такой же, без цвета) -->
+        <div class="card">
+            <img src="image/Ellipse 6.png" alt="Chicken Masala" />
+            <h3>Курица со специями</h3>
+            <div class="description">Единственное, к чему мы относимся серьезно — это еда. Ешь, пей, люби.</div>
+            <button class="order-btn">Заказать</button>
+        </div>
+
+        <!-- Третий блок -->
+        <div class="card">
+            <img src="image/ellipse10.png" alt="Kacchi Biriani" />
+            <h3>Каччи бирьяни</h3>
+            <div class="description">Присоединяйтесь к нам! Отправьтесь в гастрономическое путешествие — быстро и вкусно!
+</div>
+            <button class="order-btn">Заказать</button>
+        </div>
+    </div>
+
+    <!-- Обратная связь -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3 class="section-title">Обратная связь</h3>
+            <form id="contactForm" class="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required pattern=".{2,}" />
+                    <span class="error-message">Пожалуйста, введите имя (минимум 2 символа).</span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+                    <span class="error-message">Пожалуйста, введите правильный email.</span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Ваше сообщение" required></textarea>
+                    <span class="error-message">Пожалуйста, введите сообщение.</span>
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+
+            <!-- Левая часть: Логотип и слоган -->
+            <div class="left-footer">
+                <div class="footer-logo">
+                    <img src="image/Logo.png" alt="">
+                </div>
+                <p class="footer-slogan">
+                    Пепе шнеле ватафа вышел пепе через шнеле
+                </p>
+            </div>
+
+            <!-- Правая часть: Контакты -->
+            <div class="footer-contacts">
+                <h3>СВЯЗЬТЬСЯ С НАМИ</h3>
+
+                <!-- Форма подписки -->
+                <div class="subscribe-form">
+                    <input type="email" placeholder="ПОЧТА">
+                </div>
+
+                <!-- Контакты -->
+                <p><span>&#9742;</span> +7 (500) 258-26 54</p>
+                <p><span>&#9993;</span> Support@foodrs.net</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
